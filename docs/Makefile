@@ -1,5 +1,6 @@
 # Makefile for Sphinx documentation
 #
+SHELL:=/bin/bash -O extglob
 
 # You can set these variables from the command line.
 SPHINXOPTS    =
@@ -47,7 +48,7 @@ help:
 	@echo "  doctest    to run all doctests embedded in the documentation (if enabled)"
 
 clean:
-	rm -rf $(BUILDDIR)/!(docs|README.rst)
+	rm -rf !($(BUILDDIR)/README.rst|$(BUILDDIR)/docs)
 
 html:
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)
