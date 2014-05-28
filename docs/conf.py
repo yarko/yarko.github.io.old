@@ -95,7 +95,7 @@ release = '1.0'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # Note: have included intro into inded.rst;
-exclude_patterns = ['_build', 'Eablog', 'README.rst', 'introduction.rst', 'oldindex.rst']
+exclude_patterns = ['README.rst', 'introduction.rst', 'oldindex.rst']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.

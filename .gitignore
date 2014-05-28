@@ -1,6 +1,10 @@
-#
-_build
+# this is for github.io builds, where the tree-top is the build-dir,
+# and sources in docs: - we just version everything, except select items:
+
+# virtualenv:
 Eablog
+# scratch patterns:
 oldindex.rst
 fresh-conf.py
 *-
+

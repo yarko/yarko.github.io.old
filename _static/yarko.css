@@ -1,0 +1,75 @@
+/* fix up bootstrap-sphinx default:
+*/
+.bs-sidenav.affix {
+   top: 20px;
+}
+
+}
+/* cover theming, to match the Word-html look
+*/
+
+
+p.cover-norm, li.cover-norm, div.cover-norm
+{
+    margin:0in;
+    margin-right:.3in;
+    margin-bottom:.0001pt;
+    text-align:center;
+    line-height:150%;
+    font-size:16.0pt;
+    font-family:"Lucida Grande";
+    color:black;
+}
+
+
+p.chead, li.chead, div.chead
+{
+    margin:0in;
+    margin-right:.3in;
+    margin-bottom:.0001pt;
+    text-align:center;
+    line-height:150%;
+    font-size:28.0pt;
+    font-family:"Lucida Grande";
+    font-weight:bold;
+    color:black;
+}
+
+
+p.cover, li.cover, div.cover
+{
+    margin:0in;
+    margin-right:.3in;
+    margin-bottom:.0001pt;
+    text-align:center;
+    line-height:150%;
+    font-size:16.0pt;
+    font-family:"Lucida Grande";
+    font-weight:bold;
+    color:black;
+}
+
+p.cover-in, li.cover-in, div.cover-in
+{
+    margin:0in;
+    margin-right:.3in;
+    margin-bottom:.0001pt;
+    text-indent:.5in;
+    text-align: center;
+    line-height:150%;
+    font-size:16.0pt;
+    font-family:"Lucida Grande";
+    font-weight: bold;
+    color:black;
+}
+
+
+/* implement scrollable drop-down menu,
+ * per http://bit.ly/1fNl7en
+*/
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
