@@ -48,7 +48,8 @@ help:
 	@echo "  doctest    to run all doctests embedded in the documentation (if enabled)"
 
 clean:
-	rm -rf !($(BUILDDIR)/README.rst|$(BUILDDIR)/docs)
+	cd $(BUILDDIR)
+	rm -rf !(README.rst|docs)
 
 html:
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)
