@@ -1,0 +1,13 @@
+Jinja2==2.7.2
+MarkupSafe==0.23
+Pygments==1.6
+Sphinx==1.2.2
+Werkzeug==0.9.4
+ablog==0.1
+docutils==0.11
+hieroglyph==0.7.dev
+six==1.6.1
+sphinx-bootstrap-theme==0.4.0
+## FIXME: could not find svn URL in dependency_links for this package:
+sphinxcontrib-youtube==1.0dev-20140520
+wsgiref==0.1.2
