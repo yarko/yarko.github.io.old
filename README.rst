@@ -2,12 +2,7 @@
 README
 ======
 
-This is a sphinx-doc version of David Richo's
-copyrighted book, **The Sacred Heart of the World**.
-
-The sources were created from a text save of
-the original Word document, and then converted
-to RestructuredText by hand.
+This is a sphinx-doc blog.
 
 This build uses a sphinx-doc 1.2 version, and
 sphinx-bootstrap-theme, modified by the ``readable``
@@ -34,7 +29,7 @@ then use the ``pip`` command to install the requirements.
 
 .. code:: bash
 
-   $ virtualenv Eshm   # Environment for SHM book;
+   $ virtualenv Eablog   # Environment for SHM book;
    $ source Eshm/bin/activate
    $ # this is a private repository, so you will need permissions
    $ git clone https://bitbucket.org/yarko/davericho-shm
